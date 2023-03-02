@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(#84e1d3, #6c75de);
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #ccf5ff;
+  border-radius: 15px;
+  text-align: center;
+  width: max-content;
+  margin: 50px;
+  padding: 5px;
+}
+
+.result-box {
+  height: 30px;
+  width: 99%;
+  vertical-align: middle;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.result {
+  font-size: 20px;
+}
+.operation button {
+  width: 16%;
+  background-color: #006080;
+  font-size: 20px;
+}
+
+.numbers button {
+  width: 16%;
+  font-size: 20px;
+}
+
+.delete button {
+  width: 45%;
+  background-color: #ff4d4d;
+  font-size: 20px;
+}
+
+button {
+  color: #fff;
+  background-color: #00a3cc;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+button:active {
+  background-color: crimson;
+}

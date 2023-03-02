@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(#84e1d3, #6c75de);
+  height: 100vh;
+}
+.main-formbox {
+  display: flex;
+  justify-content: center;
+}
+.formbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #00e6ac;
+  align-items: center;
+  width: 30%;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.formbox h2 {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #00e6ac;
+  color: #00664d;
+  width: max-content;
+  border-radius: 15px;
+}
+.formbox input {
+  display: block;
+  margin: 10px;
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid #00e6ac;
+}
+
+.formbox button {
+  width: 40%;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 10px;
+  background: #00e6ac;
+  color: rgb(76, 76, 76);
+}
+.formbox button:active {
+  background-color: rgb(158, 147, 149);
+}
+.main-tablebox {
+  display: flex;
+  justify-content: center;
+}
+.tablebox {
+  text-align: -webkit-center;
+  margin-top: 60px;
+  border: 2px solid #00e6ac;
+  width: max-content;
+}
+.table-head th {
+  border: 2px solid #00e6ac;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.table-head tr th {
+  text-align: center;
+}
+
+.table-body tr td {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.calc-delete {
+  padding: 10px;
+  border-radius: 15px;
+  color: rgb(76, 76, 76);
+}
+.calc-delete:active {
+  background-color: rgb(158, 147, 149);
+}

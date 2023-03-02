@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(#84e1d3, #6c75de);
+  height: 100vh;
+}
+.main-todoitem {
+  display: flex;
+  justify-content: center;
+}
+.todoitem {
+  border: 1px solid blue;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.todoitem button {
+  background-color: aqua;
+  margin: 5px;
+}
+.todoitem button:active {
+  background-color: crimson;
+}
+.title {
+  padding-left: 5px;
+}
+.todoinput {
+  width: max-content;
+}
+.add {
+  background-color: aqua;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.add:active {
+  background-color: crimson;
+}
+.done-icon {
+  padding: 5px;
+}
