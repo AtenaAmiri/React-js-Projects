@@ -13,7 +13,7 @@ function FeedbackItem({ item, handleDelete }) {
         <FontAwesomeIcon icon={faTimes} color="purple" />
       </button>
       <div className="text-display">{item.text}</div>
-      {/* <FontAwesomeIcon icon={faEdit} /> */}
+      <FontAwesomeIcon icon={faEdit} />
     </Card>
   );
 }

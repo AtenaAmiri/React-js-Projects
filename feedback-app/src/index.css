@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+.active {
+  background: #000;
+  color: red;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #202142;
@@ -197,6 +202,9 @@ input:focus {
 .about-link a {
   color: #fff;
   cursor: pointer;
+}
+.about-link svg {
+  font-size: 30px;
 }
 
 .about-link a:hover {
